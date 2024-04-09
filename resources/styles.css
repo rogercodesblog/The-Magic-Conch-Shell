@@ -14,6 +14,10 @@ body {
     -1px -1px 0 #000;
 }
 
+a{
+  color:rgb(171, 242, 255);
+}
+
 main {
   width: 100%;
   text-align: center;
