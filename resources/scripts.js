@@ -20,7 +20,7 @@ const SoundsUri = [
 
 
 function AskTheMagicShell() {
-  AudioPlayer.src = SoundsUri[Math.floor(Math.random() * 7)];
+  AudioPlayer.src = SoundsUri[Math.floor(Math.random() * SoundsUri.length)]
   IsButtonEnabled(false);
   AudioPlayer.play();
 }
