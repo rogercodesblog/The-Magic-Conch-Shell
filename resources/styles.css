@@ -4,11 +4,11 @@
 }
 
 body {
-  height: 100vh;
   background-image: url("/resources/images/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: SpongeBob;
+  font-size:18px;
   color: white;
   text-shadow: -2px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000,
     -1px -1px 0 #000;
@@ -17,6 +17,8 @@ body {
 main {
   width: 100%;
   text-align: center;
+  margin-bottom:150px;
+  margin-top:50px;
 }
 main > * {
   margin: 25px auto;
@@ -24,6 +26,11 @@ main > * {
 
 main h1 {
   font-size: 48px;
+}
+
+iframe{
+  width: 85%;
+  height: 80vh;
 }
 
 .image-container {
@@ -34,7 +41,7 @@ main h1 {
 }
 
 .image-container img {
-  width: 30vw;
+  width: 25vw;
 }
 
 .image-container:hover {
