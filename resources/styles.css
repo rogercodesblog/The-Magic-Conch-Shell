@@ -16,7 +16,7 @@ body {
 
 main {
   width: 100%;
-  text-align: center
+  text-align: center;
 }
 main > * {
   margin: 25px auto;
@@ -26,18 +26,25 @@ main h1 {
   font-size: 48px;
 }
 
-.image-container{
-    display:inline-block;
-    background-color:rgb(252, 255, 239);
-    border-radius: 250px;
-    transition: all 0.2s ease-in-out;
+.image-container {
+  display: inline-block;
+  background-color: rgb(252, 255, 239);
+  border-radius: 250px;
+  transition: all 0.2s ease-in-out;
 }
 
-.image-container img{
-    width: 30vw;
+.image-container img {
+  width: 30vw;
 }
 
-.image-container:hover{
-    cursor: pointer;
-        box-shadow: 0px 0px 50px rgb(232, 255, 120);
+.image-container:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 50px rgb(232, 255, 120);
+}
+
+/*Responsive Breakpoints*/
+@media only screen and (max-width: 576px) {
+  .image-container img {
+    width: 50vw;
+  }
 }
