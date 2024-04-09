@@ -1,6 +1,12 @@
+@font-face {
+    font-family: SpongeBob;
+    src:url("/resources/fonts/Krabby\ Patty.ttf");
+}
+
 body{
     height: 100vh;
     background-image: url("/resources/images/background.png");
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: SpongeBob;
 }
