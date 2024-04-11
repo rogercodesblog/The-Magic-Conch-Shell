@@ -9,13 +9,13 @@ AudioPlayer.addEventListener("ended", function () {
 });
 
 const SoundsUri = [
-  "/resources/audio/english/Yes.ogg",
-  "/resources/audio/english/No.ogg",
-  "/resources/audio/english/No2.ogg",
-  "/resources/audio/english/IDontThinkSo.ogg",
-  "/resources/audio/english/Neither.ogg",
-  "/resources/audio/english/Nothing.ogg",
-  "/resources/audio/english/TryAskingAgain.ogg",
+  "/resources/audio/Yes.ogg",
+  "/resources/audio/No.ogg",
+  "/resources/audio/No2.ogg",
+  "/resources/audio/IDontThinkSo.ogg",
+  "/resources/audio/Neither.ogg",
+  "/resources/audio/Nothing.ogg",
+  "/resources/audio/TryAskingAgain.ogg",
 ];
 
 
